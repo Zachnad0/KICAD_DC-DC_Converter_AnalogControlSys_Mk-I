@@ -1,0 +1,1517 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fde5ddde-7ac3-4123-99a9-b1b8b10c441e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "DCDCCACS1:OSP120N04T"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OSP120N04T"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 3.556 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C51949596.pdf"
+				(at 5.588 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 120A 3.9mΩ@10V 130W TO-220 Single FETs, MOSFETs RoHS"
+				(at 4.318 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IXTP120N04T2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OSP120N04T_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "OSP120N04T_1_1"
+				(pin input line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Amplifier_Operational_AKL:TL052AIP"
+			(pin_names
+				(offset 0.2)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL052AIP"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_LongPads"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl032.pdf?ts=1635080962038&ref_url=https%253A%252F%252Fwww.google.com%252F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIP-8 Dual JFET Operational Amplifier, 1.8mV Offset, 3MHz GBW, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp operational amplifier jfet TL052"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL052AIP_0_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TL052AIP_1_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 6.35 270)
+					(length 3.18)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.18)
+					(name "V-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL052AIP_2_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Amplifier_Operational_AKL:TL054CN"
+			(pin_names
+				(offset 0.2)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL054CN"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl032.pdf?ts=1635080962038&ref_url=https%253A%252F%252Fwww.google.com%252F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIP-14 Quad JFET Operational Amplifier, 4mV Offset, 3MHz GBW, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp operational amplifier jfet TL054"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL054CN_0_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TL054CN_1_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 6.35 270)
+					(length 3.18)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.18)
+					(name "V-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL054CN_2_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL054CN_3_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL054CN_4_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:TL052AIP")
+		(at 127 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "055f6b39-3768-4c44-95f3-ab023b6602fe")
+		(property "Reference" "U2"
+			(at 139.7 58.3498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL052AIP"
+			(at 139.7 60.8898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_LongPads"
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl032.pdf?ts=1635080962038&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIP-8 Dual JFET Operational Amplifier, 1.8mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa02d1db-9d2f-49db-9408-f37f79fb15fe")
+		)
+		(pin "6"
+			(uuid "2fd786d1-0040-461f-81fe-ab431afba690")
+		)
+		(pin "4"
+			(uuid "f634b2a2-ba5a-4273-b714-58deaaf44f39")
+		)
+		(pin "5"
+			(uuid "eea7a51d-ec69-4cc3-8b82-cbf562ad5e9c")
+		)
+		(pin "2"
+			(uuid "a9173205-7aed-47a5-a8a9-9ed9ce28ae30")
+		)
+		(pin "3"
+			(uuid "6066c5cf-7394-4a92-ba8d-b571146ca64b")
+		)
+		(pin "8"
+			(uuid "61d0fc7f-3721-4225-bb32-c7b3af40aed6")
+		)
+		(pin "7"
+			(uuid "448f5565-905d-4412-9bd6-1690b160325f")
+		)
+		(instances
+			(project ""
+				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:TL054CN")
+		(at 64.77 113.03 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "190b4ca9-b82a-4b2a-b56e-c9d90f0e2258")
+		(property "Reference" "U1"
+			(at 66.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL054CN"
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl032.pdf?ts=1635080962038&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIP-14 Quad JFET Operational Amplifier, 4mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7e1af16-ab10-4489-9994-830d01d741f7")
+		)
+		(pin "3"
+			(uuid "c7dd2a4d-6db5-4608-a52f-6db86a16dab7")
+		)
+		(pin "9"
+			(uuid "96f83683-6aef-4c21-b0a3-c821a80d5c11")
+		)
+		(pin "8"
+			(uuid "adc9d28e-0a25-4ee8-a71d-bfb5fd367519")
+		)
+		(pin "13"
+			(uuid "9a351217-48ee-458b-86a3-2c30d41211b3")
+		)
+		(pin "11"
+			(uuid "4b40e367-ab40-47fa-8dfc-99977164adbb")
+		)
+		(pin "4"
+			(uuid "e4e0bcb5-3ac2-4172-b1d3-ed590e24a93f")
+		)
+		(pin "6"
+			(uuid "1e9f8c99-a314-48ce-9b55-a99560137746")
+		)
+		(pin "1"
+			(uuid "7c398e98-ce97-4efd-88c0-58d36bc862b7")
+		)
+		(pin "5"
+			(uuid "280aca8a-e33c-40d3-be61-e280b0947f7a")
+		)
+		(pin "7"
+			(uuid "15e87515-602b-481a-9bdb-c83bdcc589ca")
+		)
+		(pin "10"
+			(uuid "517604d3-5d4a-4af8-826b-884b21b0f662")
+		)
+		(pin "12"
+			(uuid "9d175b09-ac8e-4376-84ae-bf6dcb354b81")
+		)
+		(pin "14"
+			(uuid "edcedfa8-5462-4fef-95c2-8d8c8c2a8d17")
+		)
+		(instances
+			(project ""
+				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:TL054CN")
+		(at 68.58 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74bfa271-039f-4539-b69d-69a9c696c7db")
+		(property "Reference" "U1"
+			(at 80.01 62.1598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL054CN"
+			(at 80.01 64.6998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl032.pdf?ts=1635080962038&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIP-14 Quad JFET Operational Amplifier, 4mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7e1af16-ab10-4489-9994-830d01d741f7")
+		)
+		(pin "3"
+			(uuid "c7dd2a4d-6db5-4608-a52f-6db86a16dab7")
+		)
+		(pin "9"
+			(uuid "96f83683-6aef-4c21-b0a3-c821a80d5c11")
+		)
+		(pin "8"
+			(uuid "adc9d28e-0a25-4ee8-a71d-bfb5fd367519")
+		)
+		(pin "13"
+			(uuid "9a351217-48ee-458b-86a3-2c30d41211b3")
+		)
+		(pin "11"
+			(uuid "4b40e367-ab40-47fa-8dfc-99977164adbb")
+		)
+		(pin "4"
+			(uuid "e4e0bcb5-3ac2-4172-b1d3-ed590e24a93f")
+		)
+		(pin "6"
+			(uuid "1e9f8c99-a314-48ce-9b55-a99560137746")
+		)
+		(pin "1"
+			(uuid "7c398e98-ce97-4efd-88c0-58d36bc862b7")
+		)
+		(pin "5"
+			(uuid "280aca8a-e33c-40d3-be61-e280b0947f7a")
+		)
+		(pin "7"
+			(uuid "15e87515-602b-481a-9bdb-c83bdcc589ca")
+		)
+		(pin "10"
+			(uuid "517604d3-5d4a-4af8-826b-884b21b0f662")
+		)
+		(pin "12"
+			(uuid "9d175b09-ac8e-4376-84ae-bf6dcb354b81")
+		)
+		(pin "14"
+			(uuid "edcedfa8-5462-4fef-95c2-8d8c8c2a8d17")
+		)
+		(instances
+			(project ""
+				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:TL052AIP")
+		(at 128.27 81.28 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7818802b-a954-479e-baac-838c1a233a91")
+		(property "Reference" "U2"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL052AIP"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-8_W7.62mm_LongPads"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl032.pdf?ts=1635080962038&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIP-8 Dual JFET Operational Amplifier, 1.8mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa02d1db-9d2f-49db-9408-f37f79fb15fe")
+		)
+		(pin "6"
+			(uuid "2fd786d1-0040-461f-81fe-ab431afba690")
+		)
+		(pin "4"
+			(uuid "f634b2a2-ba5a-4273-b714-58deaaf44f39")
+		)
+		(pin "5"
+			(uuid "eea7a51d-ec69-4cc3-8b82-cbf562ad5e9c")
+		)
+		(pin "2"
+			(uuid "a9173205-7aed-47a5-a8a9-9ed9ce28ae30")
+		)
+		(pin "3"
+			(uuid "6066c5cf-7394-4a92-ba8d-b571146ca64b")
+		)
+		(pin "8"
+			(uuid "61d0fc7f-3721-4225-bb32-c7b3af40aed6")
+		)
+		(pin "7"
+			(uuid "448f5565-905d-4412-9bd6-1690b160325f")
+		)
+		(instances
+			(project ""
+				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DCDCCACS1:OSP120N04T")
+		(at 114.3 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7ea95e0-7a66-4895-a269-3aba6a54d323")
+		(property "Reference" "Q1"
+			(at 120.65 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OSP120N04T"
+			(at 120.65 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 117.856 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C51949596.pdf"
+			(at 119.888 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 120A 3.9mΩ@10V 130W TO-220 Single FETs, MOSFETs RoHS"
+			(at 118.618 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffd8369e-aefa-48d0-8467-0d424a37c7b0")
+		)
+		(pin "1"
+			(uuid "aa21d8cd-45a3-4dd1-8078-9e540320b2e7")
+		)
+		(pin "3"
+			(uuid "bb6331e0-331f-453c-9f8c-28e69f91096e")
+		)
+		(instances
+			(project ""
+				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:TL054CN")
+		(at 76.2 97.79 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da2f07bc-567a-4de0-bd2e-38185f7820bb")
+		(property "Reference" "U1"
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL054CN"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl032.pdf?ts=1635080962038&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIP-14 Quad JFET Operational Amplifier, 4mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7e1af16-ab10-4489-9994-830d01d741f7")
+		)
+		(pin "3"
+			(uuid "c7dd2a4d-6db5-4608-a52f-6db86a16dab7")
+		)
+		(pin "9"
+			(uuid "96f83683-6aef-4c21-b0a3-c821a80d5c11")
+		)
+		(pin "8"
+			(uuid "adc9d28e-0a25-4ee8-a71d-bfb5fd367519")
+		)
+		(pin "13"
+			(uuid "9a351217-48ee-458b-86a3-2c30d41211b3")
+		)
+		(pin "11"
+			(uuid "4b40e367-ab40-47fa-8dfc-99977164adbb")
+		)
+		(pin "4"
+			(uuid "e4e0bcb5-3ac2-4172-b1d3-ed590e24a93f")
+		)
+		(pin "6"
+			(uuid "1e9f8c99-a314-48ce-9b55-a99560137746")
+		)
+		(pin "1"
+			(uuid "7c398e98-ce97-4efd-88c0-58d36bc862b7")
+		)
+		(pin "5"
+			(uuid "280aca8a-e33c-40d3-be61-e280b0947f7a")
+		)
+		(pin "7"
+			(uuid "15e87515-602b-481a-9bdb-c83bdcc589ca")
+		)
+		(pin "10"
+			(uuid "517604d3-5d4a-4af8-826b-884b21b0f662")
+		)
+		(pin "12"
+			(uuid "9d175b09-ac8e-4376-84ae-bf6dcb354b81")
+		)
+		(pin "14"
+			(uuid "edcedfa8-5462-4fef-95c2-8d8c8c2a8d17")
+		)
+		(instances
+			(project ""
+				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Amplifier_Operational_AKL:TL054CN")
+		(at 72.39 82.55 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e35f8b03-daf4-4ca7-a502-c4e87f87b591")
+		(property "Reference" "U1"
+			(at 73.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL054CN"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:DIP-14_W7.62mm_LongPads"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl032.pdf?ts=1635080962038&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIP-14 Quad JFET Operational Amplifier, 4mV Offset, 3MHz GBW, Alternate KiCAD Library"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7e1af16-ab10-4489-9994-830d01d741f7")
+		)
+		(pin "3"
+			(uuid "c7dd2a4d-6db5-4608-a52f-6db86a16dab7")
+		)
+		(pin "9"
+			(uuid "96f83683-6aef-4c21-b0a3-c821a80d5c11")
+		)
+		(pin "8"
+			(uuid "adc9d28e-0a25-4ee8-a71d-bfb5fd367519")
+		)
+		(pin "13"
+			(uuid "9a351217-48ee-458b-86a3-2c30d41211b3")
+		)
+		(pin "11"
+			(uuid "4b40e367-ab40-47fa-8dfc-99977164adbb")
+		)
+		(pin "4"
+			(uuid "e4e0bcb5-3ac2-4172-b1d3-ed590e24a93f")
+		)
+		(pin "6"
+			(uuid "1e9f8c99-a314-48ce-9b55-a99560137746")
+		)
+		(pin "1"
+			(uuid "7c398e98-ce97-4efd-88c0-58d36bc862b7")
+		)
+		(pin "5"
+			(uuid "280aca8a-e33c-40d3-be61-e280b0947f7a")
+		)
+		(pin "7"
+			(uuid "15e87515-602b-481a-9bdb-c83bdcc589ca")
+		)
+		(pin "10"
+			(uuid "517604d3-5d4a-4af8-826b-884b21b0f662")
+		)
+		(pin "12"
+			(uuid "9d175b09-ac8e-4376-84ae-bf6dcb354b81")
+		)
+		(pin "14"
+			(uuid "edcedfa8-5462-4fef-95c2-8d8c8c2a8d17")
+		)
+		(instances
+			(project ""
+				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
