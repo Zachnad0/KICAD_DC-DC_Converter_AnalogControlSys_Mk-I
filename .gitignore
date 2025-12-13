@@ -38,3 +38,9 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# For LTSPICE:
+LTspiceSim/*.raw      # Raw simulation data files
+LTspiceSim/*.log      # Simulation log files
+LTspiceSim/*.plt      # Plot settings/configuration files
+LTspiceSim/*.out      # Output files (less common but safe to include)
