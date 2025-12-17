@@ -985,6 +985,12 @@
 		)
 	)
 	(junction
+		(at 125.73 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0230a4f6-95b6-4664-8a76-564bfe2fd8d9")
+	)
+	(junction
 		(at 158.75 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1076,6 +1082,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 80.01) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a13b980-58e4-400b-a1ee-1523bbf8c1eb")
+	)
+	(wire
+		(pts
 			(xy 171.45 86.36) (xy 171.45 91.44)
 		)
 		(stroke
@@ -1116,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 86.36) (xy 128.27 86.36)
+			(xy 123.19 86.36) (xy 125.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1166,6 +1182,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 86.36) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0cd94d-376b-4a0f-adde-8f942869e172")
+	)
+	(wire
+		(pts
 			(xy 138.43 86.36) (xy 143.51 86.36)
 		)
 		(stroke
@@ -1173,6 +1199,16 @@
 			(type default)
 		)
 		(uuid "ebeeff91-d181-4b39-b331-8bd5573bccc4")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 125.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfb2689-e3a1-4934-8f5f-c52aa1790c01")
 	)
 	(hierarchical_label "V_ctrl_in"
 		(shape input)
@@ -1207,6 +1243,100 @@
 		)
 		(uuid "aedf554d-f4b7-468a-a22d-10cff59beb3c")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 154.94 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dbbd22f-8a9e-49b1-9ff0-09ffeef88bab")
+		(property "Netclass" "BoostConvPower"
+			(at 156.1465 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -6.35 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 138.43 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48696c7e-dd37-4601-b264-f32b48bf19ec")
+		(property "Netclass" "BoostConvPower"
+			(at 139.6365 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -39.37 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 125.73 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc34a203-e4b4-4ce8-8daf-ace05fc56cde")
+		(property "Netclass" "BoostConvPower"
+			(at 124.5235 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 411.48 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 138.43 102.87 0)
@@ -1217,7 +1347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b9ba893-72b7-4441-804c-fdfe6420364e")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -1267,7 +1397,7 @@
 		(instances
 			(project ""
 				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e/218378dc-6e1f-4dbe-8817-2cd6f3f5419d"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1283,7 +1413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110df3f0-d6eb-4437-8bb0-bacc288707aa")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 162.56 94.2339 0)
 			(effects
 				(font
@@ -1301,7 +1431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -1310,7 +1440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -1346,7 +1476,7 @@
 		(instances
 			(project ""
 				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e/218378dc-6e1f-4dbe-8817-2cd6f3f5419d"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1362,7 +1492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38acf730-ec82-4f22-8f92-b028511102a2")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 175.26 93.9799 0)
 			(effects
 				(font
@@ -1380,7 +1510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Capacitor_THT_AKL:C_Axial_L3.0mm_D2.3mm_P7.50mm_Horizontal"
 			(at 172.4152 99.06 0)
 			(effects
 				(font
@@ -1425,7 +1555,7 @@
 		(instances
 			(project ""
 				(path "/fde5ddde-7ac3-4123-99a9-b1b8b10c441e/218378dc-6e1f-4dbe-8817-2cd6f3f5419d"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1457,7 +1587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -1552,7 +1682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Fastron_11P"
 			(at 132.08 86.36 0)
 			(effects
 				(font
@@ -1631,7 +1761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
 			(at 139.446 110.49 0)
 			(effects
 				(font
@@ -1651,6 +1781,15 @@
 		)
 		(property "Description" "40V 120A 3.9mΩ@10V 130W TO-220 Single FETs, MOSFETs RoHS"
 			(at 140.208 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C51949596"
+			(at 135.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -45,3 +45,4 @@ LTspiceSim/*.log
 LTspiceSim/*.plt
 LTspiceSim/*.out
 LTspiceSim/*.db
+LTspiceSim/*.fft
