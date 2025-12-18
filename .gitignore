@@ -39,6 +39,9 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 
+# Gerber-to-order plugin output files
+gerber_to_order/
+
 # For LTSPICE:
 LTspiceSim/*.raw
 LTspiceSim/*.log
